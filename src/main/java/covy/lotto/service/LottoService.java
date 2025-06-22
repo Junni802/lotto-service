@@ -16,7 +16,7 @@ public class LottoService {
       // 랜덤번호 생성
       for (int i = 0; i < lotto.length; i++) {
         lotto[i] = random.nextInt(45) + 1;
-        // 중복번호 제거
+        // 중복번호 제거!
         for(int j = 0; j < i; j++) {
           if(lotto[i] == lotto[j]) {
             i--;
