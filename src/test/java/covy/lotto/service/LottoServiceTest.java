@@ -12,6 +12,6 @@ class LottoServiceTest {
 
   @Test
   void lottoservice() {
-    service.lottoservice(5);
+    service.lottoservice(10);
   }
 }
